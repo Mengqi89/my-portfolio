@@ -1,8 +1,0 @@
-* {
-    /* does not take space, but border does */
-    outline: 1px dotted red;
-}
-
-h1 {
-    font-family: 'Roboto Slab', serif;
-}

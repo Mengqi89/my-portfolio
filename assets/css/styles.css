@@ -1,0 +1,73 @@
+* {
+    /* does not take space, but border does */
+    box-sizing: border-box;
+}
+
+/* h1 {
+    font-family: 'Roboto Slab', serif;
+} */
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(205, 211, 202, 0.678);
+}
+
+p {
+    padding: 5px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bio {
+    background-color: grey;
+    border: solid 1px black;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.project-item {
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+/* #name-title, .nav {
+    border: solid 1px black;
+} */
+
+.nav-link {
+    display: inline-block;
+    padding: 20px;
+}
+
+footer {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+    #projects {
+        flex-direction: row;
+    }
+  }
+
+  
