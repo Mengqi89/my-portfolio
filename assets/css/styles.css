@@ -4,14 +4,10 @@
 }
 
 main, footer {
-    /* font-family: 'Crimson Text', serif; */
-    /* font-family: 'Nunito Sans', sans-serif; */
     font-family: 'Cabin', sans-serif;
 }
 
 header {
-    /* font-family: 'Yeseva One', cursive; */
-    /* font-family: 'Halant', serif; */
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: row;
