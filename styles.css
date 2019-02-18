@@ -17,18 +17,23 @@ header {
     background: rgb(249, 253, 249);
 }
 
-.nav-link {
+li {
     display: inline-block;
     padding: 20px;
-}
-
-a {
     text-decoration: none;
     color: gray;
     font-size: 16px;
     font-weight: bold;
 }
 
+.nav-link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    font-style: italic;
+}
 
 /* #hero {
     background-image: url(/assets/images/forest2.jpg);
@@ -41,7 +46,7 @@ a {
     position: relative;
 } */
 
-#hero {
+h1 {
     background-image: url(images/mountain4.jpg);
     background-size: cover;
     background-position: center;
@@ -52,7 +57,8 @@ a {
 .headline {
     margin: auto;
     padding-top: 20px;
-    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     font-size: 32px;
     color: rgba(7, 32, 3, 0.76);
@@ -92,29 +98,62 @@ h2 {
 
 .project-item {
     width: 80%;
+    height: 375px;
     text-align: center;
     border: solid 1px lightgray;
-    color: gray;
+    color: white;
     background: rgb(249, 253, 249);
+}
+
+.screenshot-1 {
+    background-image: url(/images/worldmap-hand.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.screenshot-2 {
+    background-image: url(/images/worldmap-hand.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.screenshot-3 {
+    background-image: url(/images/worldmap-hand.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.screenshot-4 {
+    background-image: url(/images/worldmap-hand.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .project-title {
     font-size: 26px;
-    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.github {
+    color: white;
+}
+
+.project-item > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .project-description {
     font-size: 18px;
     line-height: 24px;
     margin: 0 20%;
-    padding: 10px;
 }
 
 .project-tech {
     font-size: 18px;
     line-height: 24px;
     margin: 0 20%;
-    padding: 10px;
 }
 
 footer {
