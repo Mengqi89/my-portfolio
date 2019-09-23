@@ -37,7 +37,7 @@ a:hover {
 }
 
 #headline-container {
-    background-image: url(images/mountain4.jpg);
+    background-image: url(images/mountain.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -99,19 +99,19 @@ h2 {
 }
 
 .screenshot-1 {
-    background-image: url(images/worldmap-hand.jpg);
+    background-image: url(images/everest.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .screenshot-2 {
-    background-image: url(images/worldmap-hand.jpg);
+    background-image: url(images/open-garden.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .screenshot-3 {
-    background-image: url(images/worldmap-hand.jpg);
+    background-image: url(images/for-drizzle.jpg);
     background-size: cover;
     background-position: center;
 }
