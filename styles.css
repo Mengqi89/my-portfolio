@@ -19,17 +19,25 @@ header {
 
 li {
     display: inline-block;
-    padding: 20px;
-    text-decoration: none;
-    color: gray;
-    font-size: 16px;
+    padding: 0.2em;
     font-weight: bold;
+}
+
+.nav-left {
+    width: 60%;
+}
+
+nav {
+    height: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav-link {
     text-decoration: none;
     color: gray;
-    font-size: 18px;
+    font-size: 0.9em;
 }
 
 a:hover {
@@ -46,7 +54,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
 }
-
 
 .headline {
     margin: auto;
@@ -167,9 +174,27 @@ footer {
   }
 }
 
+@media only screen and (min-width: 415px) {
+    li {
+        padding: 0.3em;
+    }
+
+    .nav-link {
+        font-size: 0.9em;
+    }
+}
+
 @media only screen and (min-width: 640px) {
     .project-item {
         width: 40%;
+    }
+
+    li {
+        padding: 1em;
+    }
+
+    .nav-link {
+        font-size: 1.2em;
     }
 }
 
