@@ -27,6 +27,17 @@ li {
     width: 60%;
 }
 
+.nav-right {
+    width: 40%;
+}
+
+.right-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 nav {
     height: 2.5em;
     display: flex;
